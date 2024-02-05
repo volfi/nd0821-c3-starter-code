@@ -14,7 +14,7 @@ app = FastAPI(
     version="1.0.0",
 )
 
-pickled_model = pickle.load(open('/Users/schwabw/Desktop/code/udacity_mlops/nd0821-c3-starter-code/starter/starter/model/model.pkl', 'rb'))
+pickled_model = pickle.load(open('/starter/model/model.pkl', 'rb'))
 
 @app.get("/")
 async def say_hello():
