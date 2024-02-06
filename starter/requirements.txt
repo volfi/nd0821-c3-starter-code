@@ -9,3 +9,5 @@ uvicorn
 gunicorn
 requests
 pydantic
+httpx
+scikit-learn==1.2.2
